@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a16c3c541bd99241cab1c21ce8e83ac",
+    "content-hash": "cf0454bf1ff5e36724dfdc2b3a03df25",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1567,6 +1567,100 @@
                 "serialize"
             ],
             "time": "2021-04-09T13:42:10+00:00"
+        },
+        {
+            "name": "pcrov/jsonreader",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pcrov/JsonReader.git",
+                "reference": "8df487125d8cc8db3fe78b75e4ce4e1d600f171d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pcrov/JsonReader/zipball/8df487125d8cc8db3fe78b75e4ce4e1d600f171d",
+                "reference": "8df487125d8cc8db3fe78b75e4ce4e1d600f171d",
+                "shasum": ""
+            },
+            "require": {
+                "ext-ctype": "*",
+                "ext-intl": "*",
+                "pcrov/unicode": "^0.1",
+                "php": ">=7.3",
+                "psr/http-message": "^1"
+            },
+            "require-dev": {
+                "nst/jsontestsuite": "^1",
+                "phpunit/phpunit": "^9.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "pcrov\\JsonReader\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Crovella",
+                    "role": "developer"
+                }
+            ],
+            "description": "JSON Pull Parser",
+            "homepage": "https://github.com/pcrov/jsonreader",
+            "keywords": [
+                "json",
+                "parser",
+                "pull",
+                "streaming"
+            ],
+            "time": "2020-10-29T19:45:40+00:00"
+        },
+        {
+            "name": "pcrov/unicode",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pcrov/Unicode.git",
+                "reference": "28cef671af310806afe98abada5e12774bd0ac64"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pcrov/Unicode/zipball/28cef671af310806afe98abada5e12774bd0ac64",
+                "reference": "28cef671af310806afe98abada5e12774bd0ac64",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Crovella"
+                }
+            ],
+            "description": "Miscellaneous Unicode utility functions",
+            "homepage": "https://github.com/pcrov/unicode",
+            "keywords": [
+                "unicode",
+                "utf-8"
+            ],
+            "time": "2020-10-26T13:33:18+00:00"
         },
         {
             "name": "phpoption/phpoption",
